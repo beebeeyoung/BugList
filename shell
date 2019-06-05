@@ -1,0 +1,4 @@
+//201906.
+[1] usging "echo string >> file.ext" cmd write a file, but name of the new generated file is always not right
+    This may matters encoded format of the shell script, although it seems right. we make out some exception to use vi cmd to
+    open the script file
