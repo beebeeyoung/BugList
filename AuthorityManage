@@ -3,3 +3,6 @@
     a）chown to chang the mode of usb descriptor,this method is temporary。
     b) add new rules for usb device. this way lasts。this method is persistent。
     related command lsusb, udevadm, udev-post etc.
+    
+[2] On linux, higher privileged process get some descripters，then switching to lower privilege，will it 
+    operate descripters normally？
