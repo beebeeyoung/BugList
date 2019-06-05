@@ -1,0 +1,5 @@
+//201906
+[1] On linux, a ordinary process may fail to access to USB device due to permissions。
+    a）chown to chang the mode of usb descriptor,this method is temporary。
+    b) add new rules for usb device. this way lasts。this method is persistent。
+    related command lsusb, udevadm, udev-post etc.
