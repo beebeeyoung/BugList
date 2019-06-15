@@ -6,3 +6,7 @@
     
 [2] On linux, higher privileged process get some descripters，then switching to lower privilege，will it 
     operate descripters normally？
+    
+
+[3] When the process needs to do a lot of computing，the effect of mutilthreading has not mutilplied that of single threading.
+    But the effect of mutilprocess has mutilplied that  of  single process.  what's the reason?
